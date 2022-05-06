@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:425px) {
+.location{
+        z-index: 1;
+        position: absolute;
+}
+
+.map{
+    width: 100vw;
+    position: relative;
+}
+
+.address {
+    background-color: #151515;
+}
+
+.address h2{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 2rem 0;
+}
+
+.address h3{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #D5966C;
+    padding: 1rem 0;
+}
+
+.address div{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 1rem 0;
+}
+
+.address p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 1rem 0 3rem 0;
+}
+footer {
+    background-color: #D5966C;
+    margin-top: 5px;
+}
+
+h3 {
+    color: #151515;
+}
+
+footer p {
+    color: #151515;   
+}
+
+.socials{ 
+    color: #151515;
+}
+}
